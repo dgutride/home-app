@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start-node": "node server.js",
-    "start": "ng serve -H 0.0.0.0 --disableHostCheck",
+    "start": "node server.js",
+    "start-ng2": "ng serve -H 0.0.0.0 --disableHostCheck",
     "start-ng": "ng serve",
     "build": "ng build",
     "test": "ng test",
