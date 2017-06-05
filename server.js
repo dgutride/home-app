@@ -64,7 +64,7 @@ var initDb = function(callback) {
   });
 };
 
-app.get('/', function(req, res, next) {
+app.get('/app', function(req, res, next) {
   //Path to your main file
   res.status(200).sendFile(path.join(__dirname + '/dist/index.html'));
 });
